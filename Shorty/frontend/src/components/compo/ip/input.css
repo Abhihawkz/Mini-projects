@@ -1,0 +1,72 @@
+.input-container {
+  background-color: #fcf0fc;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 8px 32px 0 rgba(35, 68, 78, 0.233); 
+  backdrop-filter: blur(1px); 
+  border: 1px solid rgba(255, 255, 255, 0.18); 
+  padding: 20px;
+}
+
+.input-container h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.input-container h1 span {
+  color: #1E5162;
+}
+.input-container input[type="text"],
+.input-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input-container input[type="text"] {
+  width: 100%;
+  padding: 0.5rem 0.2rem 0.5rem 0;
+  text-indent: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.input-container button {
+  padding: 0 1rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #fff;
+  background-color: #114758;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #3d8ba5;
+}
+
+.input-container p {
+  font-size: 18px; 
+  margin-bottom: 20px; 
+  color: #114758;
+  cursor: pointer;
+}
+.input-container p span {
+  color: #1E5162;
+}
