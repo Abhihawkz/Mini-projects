@@ -16,14 +16,11 @@ export const login = async (req, res) => {
     const { username, password } = req.body;
 
   
-    // Dummy authentication logic (replace this with your actual authentication logic)
     const user = User.findOne(username,password);
   
     if (user) {
-      // User authenticated successfully
       res.json({ success: true, message: 'Login successful' });
     } else {
-      // Invalid username or password
       res.status(401).json({ success: false, message: 'Invalid username or password' });
     }
   };
